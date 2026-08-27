@@ -343,14 +343,14 @@ A melhor tecnologia é aquela que resolve o problema de forma **simples, confiá
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=rrfj10&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true"
+    src="https://github-readme-stats-rrfj10.vercel.app/api?username=rrfj10&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true"
   />
+
   <img
     width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rrfj10&layout=compact&theme=github_dark&hide_border=true"
+    src="https://github-readme-stats-rrfj10.vercel.app/api/top-langs/?username=rrfj10&layout=compact&theme=github_dark&hide_border=true"
   />
 </p>
-
 ---
 
 # 🔥 GitHub Streak
