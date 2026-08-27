@@ -9,13 +9,9 @@
 
 <br>
 
-<h1 align="center">
-  👋 Olá, eu sou Ronaldo Rafael
-</h1>
+<h1 align="center">👋 Olá, eu sou Ronaldo Rafael</h1>
 
-<h3 align="center">
-  Data • AI • Automation • Analytics • Contact Center Technology
-</h3>
+<h3 align="center">Data • AI • Automation • Analytics • Contact Center Technology</h3>
 
 <p align="center">
   Construindo soluções que conectam <strong>dados, inteligência artificial, automação e operações reais.</strong>
@@ -30,65 +26,84 @@
 
 ---
 
-# 🚀 Sobre mim
+## 🚀 Sobre mim
 
 Minha atuação está na interseção entre **negócio, tecnologia e operação**.
 
-Trabalho desenvolvendo e estudando soluções para transformar grandes volumes de dados operacionais em **informação, automação, inteligência e tomada de decisão**.
+Trabalho desenvolvendo e estudando soluções para transformar dados operacionais em **informação, automação, inteligência e tomada de decisão**.
 
-Tenho especial interesse por tecnologias aplicadas a ambientes de alta operação, principalmente:
+Áreas que concentram meu interesse e atuação:
 
-- 📊 **Data Analytics & Business Intelligence**
-- 🤖 **Inteligência Artificial aplicada a negócios**
-- ⚙️ **Automação de processos**
-- 🗄️ **Engenharia e Arquitetura de Dados**
-- 📞 **Contact Center Technology**
-- 🔌 **APIs e Integração de Sistemas**
-- 🧠 **LLMs e AI Agents**
-- 📈 **Dashboards e Analytics**
-- 🔄 **ETL, ELT e CDC**
-- 🐍 **Desenvolvimento Python**
+- 📊 Data Analytics & Business Intelligence
+- 🤖 Inteligência Artificial aplicada a negócios
+- ⚙️ Automação de processos e workflows
+- 🗄️ Engenharia e Arquitetura de Dados
+- 📞 Contact Center Technology
+- 🔌 APIs e Integração de Sistemas
+- 🧠 LLMs, AI Agents e Text-to-SQL
+- 📈 Dashboards e Analytics
+- 🔄 ETL, ELT e CDC
+- 🐍 Desenvolvimento Python
 
-> Meu objetivo não é apenas gerar dashboards.
->
-> É construir sistemas capazes de transformar **dados em decisões e decisões em resultados**.
+> Tecnologia só gera valor quando transforma dados em decisões e decisões em resultados.
 
 ---
 
-# 🧠 Minha visão de tecnologia
+## 🏆 Arquitetura em destaque
+
+### Medallion Architecture — Plataforma Analítica
+
+Uma arquitetura que desenhei para estruturar uma plataforma analítica com foco em **rastreabilidade, qualidade, padronização e consumo inteligente dos dados**.
+
+O fluxo foi organizado em três camadas:
+
+- 🥉 **Fast Layer** — preserva os dados exatamente como chegaram, com foco em rastreabilidade, auditoria e reprocessamento.
+- 🥈 **Friendly Layer** — aplica qualidade, padronização, limpeza, deduplicação e tipagem correta.
+- 🥇 **Focused Layer** — transforma os dados em informação pronta para consumo e tomada de decisão.
+
+A arquitetura contempla também ingestão, orquestração, transformação, BI, CDC, monitoramento e integração com IA.
+
+**Stack representada no desenho:**
+
+`Airbyte` • `Apache Airflow` • `Python` • `PostgreSQL` • `dbt` • `Metabase` • `Power BI` • `CDC` • `AI Integration`
+
+<p align="center">
+  <img src="./assets/medallion-architecture.png" width="100%" alt="Medallion Architecture - Plataforma Analítica"/>
+</p>
+
+> Dica: mantenha a imagem acima em `assets/medallion-architecture.png`.
+
+---
+
+## 🧠 Minha visão de arquitetura
 
 ```text
-                  NEGÓCIO
-                     │
-                     ▼
-               DADOS OPERACIONAIS
-                     │
-                     ▼
-              DATA ENGINEERING
-                     │
-                     ▼
-            ANALYTICS & METRICS
-                     │
-              ┌──────┴──────┐
-              ▼             ▼
-         DASHBOARDS      AI AGENTS
-              │             │
-              └──────┬──────┘
-                     ▼
-                 INSIGHTS
-                     │
-                     ▼
-                  DECISÃO
-                     │
-                     ▼
-                 RESULTADO
+Operational Systems
+        ↓
+   CDC / APIs
+        ↓
+ Ingestion Layer
+        ↓
+ Raw / Fast Layer
+        ↓
+ Quality / Friendly Layer
+        ↓
+ Business / Focused Layer
+        ↓
+   Analytics & BI
+        ↓
+     AI Agents
+        ↓
+ Decision Making
 ```
+
+Meu interesse está em construir arquiteturas que sejam **simples de operar, auditáveis, escaláveis e úteis para o negócio**.
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-## 📊 Data & Analytics
+### 📊 Data & Analytics
 
 <p>
   <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=databricks&logoColor=white"/>
@@ -99,7 +114,7 @@ Tenho especial interesse por tecnologias aplicadas a ambientes de alta operaçã
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
 </p>
 
-## 🤖 Artificial Intelligence
+### 🤖 Artificial Intelligence
 
 <p>
   <img src="https://img.shields.io/badge/LLMs-111111?style=for-the-badge"/>
@@ -109,7 +124,7 @@ Tenho especial interesse por tecnologias aplicadas a ambientes de alta operaçã
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 </p>
 
-## ⚙️ Automation & Integration
+### ⚙️ Automation & Integration
 
 <p>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
@@ -118,7 +133,7 @@ Tenho especial interesse por tecnologias aplicadas a ambientes de alta operaçã
   <img src="https://img.shields.io/badge/Workflow%20Automation-111111?style=for-the-badge"/>
 </p>
 
-## 🐍 Backend
+### 🐍 Backend
 
 <p>
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
@@ -126,7 +141,7 @@ Tenho especial interesse por tecnologias aplicadas a ambientes de alta operaçã
   <img src="https://img.shields.io/badge/Python%20APIs-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-## 🏗️ Infrastructure & Development
+### 🏗️ Infra & Development
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -138,26 +153,7 @@ Tenho especial interesse por tecnologias aplicadas a ambientes de alta operaçã
 
 ---
 
-# 🏗️ Arquiteturas que estudo e construo
-
-```mermaid
-flowchart LR
-    A["Operational Systems"] --> B["CDC / APIs"]
-    B --> C["Data Layer"]
-    C --> D["ClickHouse"]
-    D --> E["dbt / Modeling"]
-    E --> F["Analytics"]
-    E --> G["AI Agents"]
-    F --> H["Insights"]
-    G --> H
-    H --> I["Decision Making"]
-```
-
-Meu foco é estudar como tecnologias modernas podem ser combinadas para construir uma camada analítica mais rápida, inteligente e escalável.
-
----
-
-# 🔬 Principais áreas de estudo
+## 🔬 Principais áreas de estudo
 
 <table>
 <tr>
@@ -223,65 +219,49 @@ Meu foco é estudar como tecnologias modernas podem ser combinadas para construi
 
 ---
 
-# 📞 Contact Center Analytics
+## 📞 Contact Center Analytics
 
 Uma das áreas onde aplico tecnologia e dados é **Contact Center**.
 
-Meu interesse é entender toda a jornada operacional:
-
 ```text
-MAILING
-   │
-   ▼
-LEAD
-   │
-   ▼
-DISCAGEM
-   │
-   ▼
-TENTATIVAS
-   │
-   ▼
-ALÔ
-   │
-   ▼
+Mailing
+  ↓
+Lead
+  ↓
+Discagem
+  ↓
+Tentativas
+  ↓
+Alô
+  ↓
 CPC
-   │
-   ▼
-PROPOSTA
-   │
-   ▼
-VENDA
-   │
-   ▼
-CONVERSÃO
+  ↓
+Proposta
+  ↓
+Venda
+  ↓
+Conversão
 ```
 
-E transformar essa jornada em métricas acionáveis.
+Indicadores que fazem parte desse universo:
 
-### Indicadores que fazem parte desse universo
-
-```text
-┌──────────────────────────────┐
-│ Produtividade                │
-│ Conversão                    │
-│ CPC                          │
-│ Taxa de contato              │
-│ Tentativas por lead          │
-│ Aproveitamento de mailing    │
-│ Performance de telefonia     │
-│ Performance por operador     │
-│ Performance por supervisor   │
-│ Qualidade da base            │
-│ Funil comercial              │
-└──────────────────────────────┘
-```
+- Produtividade
+- Conversão
+- CPC
+- Taxa de contato
+- Tentativas por lead
+- Aproveitamento de mailing
+- Performance de telefonia
+- Performance por operador
+- Performance por supervisor
+- Qualidade da base
+- Funil comercial
 
 ---
 
-# 🤖 AI + Analytics
+## 🤖 AI + Analytics
 
-Uma das áreas que mais estou explorando é a evolução do modelo tradicional:
+Uma das áreas que mais exploro é a evolução do modelo tradicional:
 
 ```text
 Database
@@ -309,18 +289,16 @@ Insights
 Dynamic Dashboard
 ```
 
-A ideia é permitir que usuários interajam com os dados de maneira cada vez mais natural.
+Exemplo de pergunta analítica:
 
-Exemplo:
+> Qual indicador explica a maior queda de conversão nos últimos dias e onde devo atuar primeiro?
 
-> **"Qual supervisor apresentou maior queda de conversão nos últimos 7 dias e quais indicadores explicam essa queda?"**
-
-O sistema deve ser capaz de:
+Um sistema inteligente deve ser capaz de:
 
 ```text
 Entender a pergunta
         ↓
-Identificar as métricas
+Identificar métricas
         ↓
 Consultar os dados
         ↓
@@ -328,158 +306,104 @@ Validar o resultado
         ↓
 Criar a análise
         ↓
-Explicar os principais fatores
+Explicar os fatores
         ↓
 Apresentar visualmente
 ```
 
 ---
 
-# ⚙️ Automation Lab
+## ⚙️ Automation Lab
 
-Também trabalho e estudo automações combinando diferentes tecnologias:
+Soluções combinando:
 
 ```text
-             ┌────────────┐
-             │    API     │
-             └─────┬──────┘
-                   │
-                   ▼
-┌────────┐     ┌────────┐     ┌────────┐
-│ System │────▶│  n8n   │────▶│ Python │
-└────────┘     └────┬───┘     └────┬───┘
-                    │              │
-                    ▼              ▼
-                 Webhook          Data
-                    │              │
-                    └──────┬───────┘
-                           ▼
-                         LLM
-                           │
-                           ▼
-                      Automation
+n8n
++
+APIs
++
+Webhooks
++
+Python
++
+LLMs
 ```
 
-O objetivo é eliminar processos repetitivos e criar fluxos mais inteligentes.
+para integração de sistemas, automação de processos e redução de tarefas repetitivas.
 
 ---
 
-# 🗄️ Modern Data Architecture
+## 🗄️ Modern Data Architecture
 
-Uma arquitetura que venho estudando bastante:
-
-```text
-┌─────────────────────┐
-│ Operational Database│
-└──────────┬──────────┘
-           │
-           ▼
-         CDC
-           │
-           ▼
-┌─────────────────────┐
-│ Analytical Database │
-│     ClickHouse      │
-└──────────┬──────────┘
-           │
-           ▼
-          dbt
-           │
-           ▼
-┌─────────────────────┐
-│   Semantic Layer    │
-└──────────┬──────────┘
-           │
-     ┌─────┴─────┐
-     ▼           ▼
- Dashboard    AI Agent
-     │           │
-     └─────┬─────┘
-           ▼
-        Insights
+```mermaid
+flowchart LR
+    A[Operational Systems] --> B[CDC / APIs]
+    B --> C[Data Layer]
+    C --> D[ClickHouse]
+    D --> E[dbt / Modeling]
+    E --> F[Analytics]
+    E --> G[AI Agents]
+    F --> H[Insights]
+    G --> H
+    H --> I[Decision Making]
 ```
 
 ---
 
-# 🚧 Labs & Projetos
-
-Aqui no GitHub quero concentrar experimentos, estudos e projetos relacionados a:
+## 🚧 Labs & Projetos
 
 ### 🤖 `ai-dashboard-lab`
-
 Experimentos para geração e interpretação de dashboards utilizando inteligência artificial.
 
----
-
 ### 📊 `contact-center-analytics`
-
 Modelos analíticos, indicadores e estudos voltados para operações de Contact Center.
 
----
-
 ### 🗄️ `data-engineering-lab`
-
-Experimentos envolvendo:
-
-`DuckDB` • `ClickHouse` • `dbt` • `CDC` • `ETL` • `ELT`
-
----
+Experimentos com `DuckDB`, `ClickHouse`, `dbt`, `CDC`, `ETL` e `ELT`.
 
 ### ⚙️ `n8n-automation-lab`
-
 Workflows, automações, webhooks e integrações utilizando n8n.
 
----
-
 ### 🧠 `text-to-sql-lab`
-
-Experimentos combinando:
-
-```text
-Natural Language
-        ↓
-       LLM
-        ↓
-       SQL
-        ↓
-     Database
-        ↓
-      Answer
-```
-
----
+Experimentos combinando linguagem natural, LLMs, SQL e bancos de dados.
 
 ### 🐍 `python-data-toolbox`
-
 Scripts e ferramentas Python para processamento, transformação e análise de dados.
 
 ---
 
-# 🎯 Atualmente explorando
+## 🎯 Atualmente explorando
 
-```text
-AI Agents
-Agentic Analytics
-LLM Applications
-Text-to-SQL
-RAG
-AI-powered Dashboards
-Semantic Layers
-ClickHouse
-DuckDB
-dbt
-CDC
-Data Modeling
-Modern Data Stack
-Workflow Automation
-Data Architecture
-```
+`AI Agents` • `Agentic Analytics` • `LLM Applications` • `Text-to-SQL` • `RAG` • `AI-powered Dashboards` • `Semantic Layers` • `ClickHouse` • `DuckDB` • `dbt` • `CDC` • `Data Modeling` • `Modern Data Stack` • `Workflow Automation` • `Data Architecture`
 
 ---
 
-# 💡 Engenharia aplicada ao mundo real
+## 📊 GitHub Analytics
 
-Para mim, tecnologia faz mais sentido quando resolve problemas reais.
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rrfj10&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rrfj10&layout=compact&theme=github_dark&hide_border=true"/>
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=rrfj10&theme=github-dark-blue&hide_border=true"/>
+</p>
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rrfj10&theme=github-compact&hide_border=true" width="100%"/>
+</p>
+
+---
+
+## 💡 Engenharia aplicada ao mundo real
 
 ```text
 Problema operacional
@@ -505,79 +429,11 @@ A melhor tecnologia é aquela que resolve o problema de forma **simples, confiá
 
 ---
 
-# 📊 GitHub Analytics
-
-<p align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=rrfj10&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true"
-  />
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rrfj10&layout=compact&theme=github_dark&hide_border=true"
-  />
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=rrfj10&theme=github-dark-blue&hide_border=true"
-  />
-</p>
-
----
-
-# 📈 Contribution Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=rrfj10&theme=github-compact&hide_border=true"
-    width="100%"
-  />
-</p>
-
----
-
-# 🧩 O que você encontrará por aqui
-
-<p align="center">
-
-`DATA`
-
-`AI`
-
-`AUTOMATION`
-
-`PYTHON`
-
-`SQL`
-
-`ANALYTICS`
-
-`DATA ENGINEERING`
-
-`CONTACT CENTER`
-
-`APIs`
-
-`LLMs`
-
-`AI AGENTS`
-
-</p>
-
----
-
 <div align="center">
 
-## 💡 Build. Measure. Learn. Automate.
+## Build. Measure. Learn. Automate. 🚀
 
 ### Turning operational complexity into intelligent systems.
-
-<br>
 
 **Data • AI • Automation • Real-world Operations**
 
@@ -588,9 +444,3 @@ A melhor tecnologia é aquela que resolve o problema de forma **simples, confiá
 </a>
 
 </div>
-
-<br>
-
-<p align="center">
-  <sub>Always learning. Always building. 🚀</sub>
-</p>
