@@ -140,7 +140,7 @@ A arquitetura contempla ainda ingestão, CDC, orquestração, transformação, m
 `Airbyte` • `Apache Airflow` • `Python` • `PostgreSQL` • `dbt` • `Metabase` • `Power BI` • `CDC` • `AI Integration`
 
 <p align="center">
-  <img src="./medallion-architecture.png" width="100%" alt="Medallion Architecture - Fast Friendly Focused Data Architecture"/>
+  <img src="./assets/medallion-architecture.png" width="100%" alt="Medallion Architecture - Fast Friendly Focused Data Architecture"/>
 </p>
 
 ---
