@@ -343,14 +343,24 @@ A melhor tecnologia é aquela que resolve o problema de forma **simples, confiá
 <p align="center">
   <img
     width="49%"
-    src="https://github-readme-stats-rrfj10.vercel.app/api?username=rrfj10&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rrfj10&theme=github_dark"
+    alt="GitHub Stats"
   />
-
   <img
     width="49%"
-    src="https://github-readme-stats-rrfj10.vercel.app/api/top-langs/?username=rrfj10&layout=compact&theme=github_dark&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rrfj10&theme=github_dark"
+    alt="Top Languages by Repository"
   />
 </p>
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rrfj10&theme=github_dark"
+    alt="GitHub Profile Details"
+  />
+</p>
+
 ---
 
 # 🔥 GitHub Streak
