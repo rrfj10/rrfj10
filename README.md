@@ -342,22 +342,35 @@ A melhor tecnologia é aquela que resolve o problema de forma **simples, confiá
 
 <p align="center">
   <img
-    width="49%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rrfj10&theme=github_dark"
-    alt="GitHub Stats"
-  />
-  <img
-    width="49%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rrfj10&theme=github_dark"
-    alt="Top Languages by Repository"
+    width="100%"
+    src="./profile-summary-card-output/dracula/0-profile-details.svg"
+    alt="Profile Details"
   />
 </p>
 
 <p align="center">
   <img
-    width="100%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rrfj10&theme=github_dark"
-    alt="GitHub Profile Details"
+    width="49%"
+    src="./profile-summary-card-output/dracula/1-repos-per-language.svg"
+    alt="Top Languages by Repo"
+  />
+  <img
+    width="49%"
+    src="./profile-summary-card-output/dracula/2-most-commit-language.svg"
+    alt="Top Languages by Commit"
+  />
+</p>
+
+<p align="center">
+  <img
+    width="49%"
+    src="./profile-summary-card-output/dracula/3-stats.svg"
+    alt="GitHub Stats"
+  />
+  <img
+    width="49%"
+    src="./profile-summary-card-output/dracula/4-productive-time.svg"
+    alt="Productive Time"
   />
 </p>
 
